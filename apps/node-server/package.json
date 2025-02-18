@@ -1,0 +1,14 @@
+{
+  "name": "node-server",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.2.1"
+  }
+}
