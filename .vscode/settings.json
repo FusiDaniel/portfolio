@@ -1,6 +1,6 @@
 {
-  "eslint.experimental.useFlatConfig": true,
-  "prettier.enable": false,
+  "eslint.enable": true,
+  "eslint.useFlatConfig": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -43,18 +43,6 @@
       "rule": "*semi",
       "severity": "off"
     }
-  ],
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml"
   ],
   "typescript.tsdk": "node_modules/typescript/lib"
 }
